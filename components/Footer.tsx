@@ -16,11 +16,11 @@ const Footer = () => {
             <ul className="space-y-3">
                 <li className="flex items-center space-x-2">
                     <span>🕒</span>
-                    <span>開催日: 2025年4月中旬</span>
+                    <span>開催日：2025年4月中旬</span>
                 </li>
                 <li className="flex items-center space-x-2">
                     <span>📍</span>
-                    <span>場所:図書館棟1階 セミナー交流室</span>
+                    <span>場所：図書館棟1階 セミナー交流室</span>
                 </li>
                 <li className="flex items-center space-x-2">
                     <span>✉️</span>
@@ -78,7 +78,7 @@ const Footer = () => {
 
         {/* Copyright */}
         <div className="mt-8 pt-4 border-t border-blue-400 text-center text-sm">
-            <p>© {currentYear} 文化部合同説明会 All Rights Reserved.</p>
+            <p>{currentYear} 文化部合同説明会</p>
         </div>
         </div>
     </footer>

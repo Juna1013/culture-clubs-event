@@ -21,8 +21,8 @@ const Header = () => {
             <ul className="flex space-x-8">
               {[
                 { href: '/', label: 'Home' },
-                { href: '/about', label: '参加団体' },
-                { href: '/contact', label: 'お問い合わせ' }
+                { href: '/about', label: 'Clubs' },
+                { href: '/contact', label: 'Contact' }
               ].map(({ href, label }) => (
                 <li key={href}>
                   <Link 
@@ -53,8 +53,8 @@ const Header = () => {
             <ul className="space-y-4">
               {[
                 { href: '/', label: 'Home' },
-                { href: '/about', label: '参加団体' },
-                { href: '/contact', label: 'お問い合わせ' }
+                { href: '/about', label: 'Clubs' },
+                { href: '/contact', label: 'Contact' }
               ].map(({ href, label }) => (
                 <li key={href}>
                   <Link 
