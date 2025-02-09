@@ -4,22 +4,22 @@ import Footer from '../components/Footer';
 const Home = () => {
   const clubCategories = [
     {
-      title: '音楽系',
-      description: '音楽を通じて感動を創造する',
+      title: '天文部',
+      description: '街の天文台、目指します！',
       clubs: ['吹奏楽部', '軽音楽部', '合唱部'],
-      emoji: '🎵'
+      emoji: '⭐'
     },
     {
-      title: '芸術系',
-      description: '想像力を形にする',
+      title: 'ラジオ部',
+      description: '屋上でラジオを聞こう！',
       clubs: ['美術部', '書道部', '写真部'],
-      emoji: '🎨'
+      emoji: '📻'
     },
     {
-      title: '表現系',
-      description: '想いを伝える',
+      title: 'MDL',
+      description: 'ものづくり、しませんか？',
       clubs: ['演劇部', '放送部', '文芸部'],
-      emoji: '🎭'
+      emoji: '🔧'
     }
   ];
 
@@ -32,7 +32,7 @@ const Home = () => {
         <main className="container mx-auto px-4">
           <div className="text-center max-w-3xl mx-auto">
             <h1 className="text-4xl md:text-5xl font-bold text-gray-800 mb-6">
-              ようこそ、部活動へ！
+              Welcome to NITIC!!
             </h1>
             <p className="text-xl text-gray-600 mb-8">
               仲間と共に成長し、新しい可能性を見つけよう
@@ -41,7 +41,7 @@ const Home = () => {
               href="/about" 
               className="inline-block bg-gradient-to-r from-blue-600 to-purple-600 text-white px-8 py-3 rounded-full hover:shadow-lg transition-all duration-300 hover:-translate-y-1"
             >
-              部活動を詳しく見る
+              参加団体一覧
             </a>
           </div>
         </main>
@@ -51,7 +51,7 @@ const Home = () => {
       <section className="py-16 bg-white">
         <div className="container mx-auto px-4">
           <h2 className="text-3xl font-bold text-center text-gray-800 mb-12">
-            部活動カテゴリー
+            Kinds
           </h2>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
             {clubCategories.map((category) => (
@@ -89,8 +89,10 @@ const Home = () => {
           <h2 className="text-3xl font-bold mb-4">
             説明会に参加しませんか？
           </h2>
-          <p className="text-xl mb-8 max-w-2xl mx-auto">
-            4月15日(火)に体育館で文化部合同説明会を開催します。
+          <p className="text-xl mb-4 max-w-2xl mx-auto">
+            4月上旬にセミナー交流室で開催します。
+          </p>
+          <p className="text-xl mb-4 max-w-2xl mx-auto">
             あなたの興味のある部活動を見つけましょう！
           </p>
           <div className="space-x-4">
