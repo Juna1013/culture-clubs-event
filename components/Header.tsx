@@ -11,8 +11,8 @@ const Header = () => {
           {/* Logo/Title */}
           <h1 className="text-2xl font-bold tracking-wider hover:text-blue-200 transition-colors duration-300">
             <Link href="/" className="flex items-center space-x-2">
-              <span className="text-3xl">🎭</span>
-              <span>部活動紹介</span>
+              <span className="text-3xl">🎺</span>
+              <span>文化部合同説明会</span>
             </Link>
           </h1>
 
@@ -20,8 +20,8 @@ const Header = () => {
           <nav className="hidden md:block">
             <ul className="flex space-x-8">
               {[
-                { href: '/', label: 'ホーム' },
-                { href: '/about', label: '部活動紹介' },
+                { href: '/', label: 'Home' },
+                { href: '/about', label: '参加団体' },
                 { href: '/contact', label: 'お問い合わせ' }
               ].map(({ href, label }) => (
                 <li key={href}>
@@ -52,8 +52,8 @@ const Header = () => {
           <nav className="md:hidden py-4">
             <ul className="space-y-4">
               {[
-                { href: '/', label: 'ホーム' },
-                { href: '/about', label: '部活動紹介' },
+                { href: '/', label: 'Home' },
+                { href: '/about', label: '参加団体' },
                 { href: '/contact', label: 'お問い合わせ' }
               ].map(({ href, label }) => (
                 <li key={href}>
