@@ -41,7 +41,7 @@ const Home = () => {
               href="/about" 
               className="inline-block bg-gradient-to-r from-blue-600 to-purple-600 text-white px-8 py-3 rounded-full hover:shadow-lg transition-all duration-300 hover:-translate-y-1"
             >
-              参加団体一覧
+              What's Club?
             </a>
           </div>
         </main>
@@ -51,7 +51,7 @@ const Home = () => {
       <section className="py-16 bg-white">
         <div className="container mx-auto px-4">
           <h2 className="text-3xl font-bold text-center text-gray-800 mb-12">
-            Kinds
+          Event Details
           </h2>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
             {clubCategories.map((category) => (
@@ -79,35 +79,6 @@ const Home = () => {
                 </ul>
               </div>
             ))}
-          </div>
-        </div>
-      </section>
-
-      {/* Call to Action Section */}
-      <section className="bg-gradient-to-r from-blue-600 to-purple-600 py-16">
-        <div className="container mx-auto px-4 text-center text-white">
-          <h2 className="text-3xl font-bold mb-4">
-            説明会に参加しませんか？
-          </h2>
-          <p className="text-xl mb-4 max-w-2xl mx-auto">
-            4月上旬にセミナー交流室で開催します。
-          </p>
-          <p className="text-xl mb-4 max-w-2xl mx-auto">
-            あなたの興味のある部活動を見つけましょう！
-          </p>
-          <div className="space-x-4">
-            <a 
-              href="/contact" 
-              className="inline-block bg-white text-blue-600 px-8 py-3 rounded-full hover:shadow-lg transition-all duration-300 hover:-translate-y-1"
-            >
-              参加申し込み
-            </a>
-            <a 
-              href="/about" 
-              className="inline-block bg-transparent border-2 border-white text-white px-8 py-3 rounded-full hover:bg-white hover:text-blue-600 transition-all duration-300"
-            >
-              詳細を見る
-            </a>
           </div>
         </div>
       </section>
